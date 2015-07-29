@@ -81,11 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				2BBF027F1B6895AF00A275F5 /* Classes */,
-				2BBF025A1B687A4700A275F5 /* AppDelegate.h */,
-				2BBF025B1B687A4700A275F5 /* AppDelegate.m */,
-				2BBF02631B687A4700A275F5 /* Main.storyboard */,
-				2BBF02661B687A4700A275F5 /* Images.xcassets */,
-				2BBF02681B687A4700A275F5 /* LaunchScreen.xib */,
 				2BBF025D1B687A4700A275F5 /* ____.xcdatamodeld */,
 				2BBF02561B687A4700A275F5 /* Supporting Files */,
 			);
@@ -121,6 +116,7 @@
 		2BBF027F1B6895AF00A275F5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2BBF02881B68CFA500A275F5 /* Common */,
 				2BBF02841B68969B00A275F5 /* Mine */,
 				2BBF02831B68965A00A275F5 /* Set */,
 				2BBF02821B68964300A275F5 /* Manual */,
@@ -187,6 +183,18 @@
 			children = (
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		2BBF02881B68CFA500A275F5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2BBF02631B687A4700A275F5 /* Main.storyboard */,
+				2BBF02661B687A4700A275F5 /* Images.xcassets */,
+				2BBF02681B687A4700A275F5 /* LaunchScreen.xib */,
+				2BBF025A1B687A4700A275F5 /* AppDelegate.h */,
+				2BBF025B1B687A4700A275F5 /* AppDelegate.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +494,7 @@
 				2BBF027B1B687A4700A275F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BBF027C1B687A4700A275F5 /* Build configuration list for PBXNativeTarget "紧急救援Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				2BBF027E1B687A4700A275F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
